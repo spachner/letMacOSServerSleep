@@ -95,10 +95,8 @@ end
 if __FILE__ == $0
     begin
         loop do
-            #sleep (7*60)
+            sleep (7*60)
             checkAndSleep
-            #sleep (8*60)
-            #sleep (1*60)
         end
     rescue Interrupt
         puts "Stopped by CTRL-C"
